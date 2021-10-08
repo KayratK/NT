@@ -446,7 +446,7 @@ body .bold {
     position: absolute;
     left: 0;
     top: 0;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 .about-item:hover .about-item__info  {
     opacity: 1;
