@@ -123,6 +123,7 @@
     }
     .about-item {
         position: relative;
+        width: 50%;
     }
     .about-item::before {
         content: '';
@@ -136,6 +137,8 @@
     }
     .about-item:hover .about-item__info  {
         opacity: 1;
+        left: -50px;
+        bottom: 50px;
     }
     .about-item:hover::before {
         width: 0;
@@ -144,12 +147,12 @@
     .about-item__info {
         opacity: 0;
         position: absolute;
-        left: -70px;
-        bottom: 50px;
+        left: 20px;
+        bottom: 20px;
         background: #FFFFFF;
         box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
         border-radius: 8px;
-        padding: 0;
+        padding: 26px 20px;
         transition: 0.8s;
     }
     .right__dots {
