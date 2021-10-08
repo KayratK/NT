@@ -142,13 +142,6 @@
     .about-item__info {
         padding: 20px;
     }
-    .right__dots {
-        position: absolute;
-        right: -200px;
-        bottom: auto;
-        z-index: 1;
-        height: 150px;
-    }
     .col-6 {
         width: 100%;
     }
