@@ -137,23 +137,10 @@
     }
     .about-item:hover .about-item__info  {
         opacity: 1;
-        left: -50px;
-        bottom: 50px;
-    }
-    .about-item:hover::before {
-        width: 0;
-        height: 0;
+        left: -14px;
     }
     .about-item__info {
-        opacity: 0;
-        position: absolute;
-        left: 20px;
-        bottom: 20px;
-        background: #FFFFFF;
-        box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
-        border-radius: 8px;
-        padding: 26px 20px;
-        transition: 0.8s;
+        padding: 20px;
     }
     .right__dots {
         position: absolute;
