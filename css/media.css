@@ -99,6 +99,17 @@
         left: 40%;
         transform: translate(-50%,-50%);
     }
+    .about__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .right__dots {
+        position: absolute;
+        right: -200px;
+        bottom: auto;
+        z-index: 1;
+        height: 150px;
+    }
     .col-6 {
         width: 100%;
     }
