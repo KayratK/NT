@@ -155,10 +155,9 @@
         margin-top: 0;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
     .hero {
         background-position-y: -20vh;
-        width: 145%;
     }
     .hero__container,
     .header__container{
