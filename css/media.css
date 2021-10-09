@@ -156,5 +156,25 @@
     }
 }
 @media screen and (max-width: 768px) {
-
+    .hero {
+        background-position-y: -20vh;
+    }
+    .hero__container,
+    .header__container{
+        padding-left: 40px;
+        width: auto;
+    }
+    .header__menu {
+        margin-right: 80px;
+        font-size: 12px;
+    }
+    .hero__social {
+        margin-right: 50px;
+    }
+    .hero__title {
+        font-size: 110px; 
+    }
+    .hero__subtitle {
+        margin-bottom: 20px;
+    }
 }
