@@ -177,4 +177,17 @@
     .hero__subtitle {
         margin-bottom: 20px;
     }
+    .trip__top {
+        margin: 0 -170px 0 200px;
+    }
+    .trip__nav {
+        margin: 90px;
+    }
+    .trip__slider {
+        width: 576px;
+    }
+    .slider__dots {
+        left: 50px;
+    }
+    
 }
