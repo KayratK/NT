@@ -158,15 +158,18 @@
 @media screen and (max-width: 768px) {
     .hero {
         background-position-y: -20vh;
+        width: 145%;
     }
     .hero__container,
     .header__container{
         padding-left: 40px;
-        width: auto;
     }
     .header__menu {
         margin-right: 80px;
         font-size: 12px;
+    }
+    .hero__scroll {
+        margin-left: 20px;
     }
     .hero__social {
         margin-right: 50px;
@@ -189,5 +192,5 @@
     .slider__dots {
         left: 50px;
     }
-    
+
 }
