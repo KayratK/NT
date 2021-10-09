@@ -99,56 +99,60 @@
         left: 40%;
         transform: translate(-50%,-50%);
     }
-    .about__content {
-        display: flex;
-        flex-direction: column;
-    }
-    .about__left {
-        width: auto;
-        padding-right: 50px;
-        text-align: center;
-        padding: 0;
-    }
-    .about .title {
-        padding-left: 70px;
-        padding-bottom: 30px;
-    }
-    .about .button {
-        margin-top: auto;
-        margin-bottom: 30px;
-    }
-    .about__right {
-        width: 200%;
-        flex-direction: column;
-    }
-    .about-item {
-        position: relative;
-        width: 50%;
-    }
-    .about-item::before {
-        content: '';
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0,0,0,0.7);
-        position: absolute;
-        left: 0;
-        top: 0;
-        transition: 0.5s;
-    }
-    .about-item:hover .about-item__info  {
-        opacity: 1;
-        left: -14px;
-    }
-    .about-item__info {
-        padding: 20px;
-    }
     .col-6 {
         width: 100%;
     }
+
+    .about,.about .title {
+        text-align: center;
+    }
+    .about__content {
+        flex-direction: column;
+    }
+    .about__left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+    .about__content p {
+        font-size: 13px;
+    }
+    .about__right {
+        width: 100%;
+    }
+    .about-item {
+        width: 100%;
+    }
+    .about-item:hover .about-item__info{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    .people {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    .people-item {
+        padding: 25px;
+    }
+    .people-item::before {
+        display: none;
+    }
+    .goodbye {
+        padding: 0;
+    }
+    .footer {
+        padding: 70px 0;
+    }
     .footer__row {
-        display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
+    }
+    .footer-item {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .footer__copyright {
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 768px) {
