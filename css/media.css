@@ -3,7 +3,6 @@
     .hero .container {
         width: 1110px;
     }
-
 }
 @media screen and (max-width: 576px) {
     .hero {
