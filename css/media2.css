@@ -5,6 +5,10 @@
     .hero__container,
     .header__container{
         padding-left: 40px;
+        width: auto;
+    }
+    .header__logo {
+        font-size: 30px;
     }
     .header__menu {
         margin-right: 80px;
