@@ -12,7 +12,7 @@
     .hero__container,
     .header__container{
         padding: 0 20px;
-        width: 375px;
+        width: auto;
     }
     .header__container {
         align-items: center;
