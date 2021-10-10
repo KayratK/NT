@@ -1,0 +1,153 @@
+@media screen and (max-width: 768px) {
+    .hero {
+        background-position-y: -20vh;
+    }
+    .hero__container,
+    .header__container{
+        padding: 0 20px;
+        width: auto;
+    }
+    .header__container {
+        align-items: center;
+    }
+    .header__menu {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .hero__wrapper {
+        margin-top: -150px;
+    }
+    .hero .container {
+        width: auto;
+        right: 20px;
+    }
+    .hero__title {
+        font-size: 90px;
+        line-height: 1.5;
+    }
+    .hero__subtitle {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .hero__description {
+        font-size: 14px;
+    }
+    .trip__top {
+        margin: 50px;
+        text-align: center;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .trip__description {
+        font-size: 15px;
+    }
+    .trip__nav {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .trip__nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .trip__nav li {
+        padding: 0;
+        margin-bottom: 45px;
+    }
+    .trip__nav li.is-active::before {
+        bottom: -20px;
+    }
+    .trip__content {
+        flex-direction: column-reverse;
+    }
+    .trip__right {
+        padding: 0;
+        margin-bottom: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .trip__right h3 {
+        font-size: 42px;
+    }
+    .trip__right p {
+        font-size: 15px;
+        margin-left: 130px;
+    }
+    .trip__social {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: -130px;
+    }
+    .button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .trip__slider {
+        width: 100%;
+    }
+    .slider-item__text {
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+    .slider__dots {
+        margin-left: 180px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .about,.about .title {
+        text-align: center;
+        font-size: 70px;
+    }
+    .about__content {
+        flex-direction: column;
+    }
+    .about__left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+    .about__content p {
+        font-size: 16px;
+    }
+    .about__right {
+        width: 100%;
+    }
+    .about-item {
+        width: 100%;
+    }
+    .about-item:hover .about-item__info{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    .people {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    .people-item {
+        padding: 25px;
+    }
+    .people-item::before {
+        display: none;
+    }
+    .people__row {
+        margin: 60px;
+    }
+    .goodbye {
+        padding: 0;
+    }
+    .footer {
+        padding: 70px 0;
+    }
+    .footer__row {
+        margin: 30px;
+    }
+    .footer-item {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .footer__copyright {
+        margin-top: 0;
+    }
+}
