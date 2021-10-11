@@ -101,14 +101,14 @@
       left: 78px;
       bottom: -50px;
   }
-  .trip__right {
-	  width: 100%;
+    .trip__right {
+	    width: 100%;
   }
-  .trip__social span {
-	margin-bottom:6px;
+    .trip__social span {
+	    margin-bottom:6px;
  }
- .trip img {
-	margin: 8px 0px;
+    .trip img {
+	    margin: 8px 0px;
 	}
 	.about__content {
 		flex-wrap: wrap;
