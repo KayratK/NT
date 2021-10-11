@@ -13,7 +13,6 @@
 	.hero {
 		background-position-y: -20vh; 
 	}
-
 	.hero__title {
 		font-size: 102px;
 	}
@@ -30,12 +29,10 @@
 	.hero__scroll {
 		bottom: 290px;
 	}
-
 	.trip__top {
 		justify-content: center;
 		padding: 0;
 	}
-
 	.slider-item__text {
 		transform: translate(45%,-50%);
 	}
