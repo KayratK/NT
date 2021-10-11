@@ -150,7 +150,7 @@
 	
 }
 
-
+/* iphone X */
 
 @media screen and (max-width: 576px) {
     .hero {
@@ -217,6 +217,9 @@
     .trip__content {
         flex-direction: column-reverse;
     }
+	.trip__left {
+		bottom: -10px;
+	}
     .trip__right {
         padding: 0;
         margin-bottom: 200px;
