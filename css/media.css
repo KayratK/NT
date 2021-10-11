@@ -250,6 +250,7 @@
     }
 	.slider__dots {
 		bottom: -10px;
+		left: -10px;
 	}
     .col-6 {
         width: 100%;
