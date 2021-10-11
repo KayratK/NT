@@ -248,6 +248,9 @@
         left: 40%;
         transform: translate(-50%,-50%);
     }
+	.slider__dots {
+		bottom: -10px;
+	}
     .col-6 {
         width: 100%;
     }
