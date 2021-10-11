@@ -250,7 +250,7 @@
     }
 	.slider__dots {
 		bottom: -10px;
-		left: -10px;
+		left: -15px;
 	}
     .col-6 {
         width: 100%;
@@ -279,8 +279,8 @@
 		width: 100%;
     }
     .about-item {
-	position: relative;
-	width: 100%;
+		position: relative;
+		width: 100%;
 	}
 	.about-item:hover .about-item__info  {
 		opacity: 1;
